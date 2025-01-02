@@ -1,0 +1,130 @@
+@media screen and (min-width: 901px) {
+    .security-main {
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    background-color: #212429;
+    background-image: url("../../assets/securitycard-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75vw;
+}
+
+.security-title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #FFF;
+    font-family: "Rubik One";
+    font-size: 3.5vw;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 91.111%;
+}
+
+.security-desc {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 0 8vw;
+}
+
+.securitycards {
+    display: flex;
+    justify-content: center;
+    padding: 4vw;
+    /* background-image: url("../../assets/securitycard-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50vw 50vw; */
+}
+
+.security-card1 {
+    display: flex;
+    align-items: center;
+}
+
+.securitycards-mobile {
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+    .security-main {
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    background-color: #212429;
+    background-image: url("../../assets/securitycard-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75vw;
+}
+
+.security-title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #FFF;
+    font-family: "Rubik One";
+    font-size: 7.5vw;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 91.111%;
+}
+
+.security-desc {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.securitycards {
+    display: none;
+    justify-content: center;
+    padding: 4vw;
+    /* background-image: url("../../assets/securitycard-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50vw 50vw; */
+}
+
+.security-card1 {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.security-card2 {
+    display: none;
+}
+
+.securitycards-mobile{
+    display: flex;
+    align-content: center;
+    /* justify-content: center; */
+    overflow-x: auto;
+    scroll-snap-align: start;
+}
+}

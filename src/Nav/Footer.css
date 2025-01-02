@@ -1,0 +1,206 @@
+@media screen and (min-width: 901px) {
+  .foot-main {
+    background-image: url("../assets/footer-bg.svg");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5vw 10vh;
+    padding-top: 29vh;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .foot-logo {
+    width: 126.937px;
+    height: 28px;
+    flex-shrink: 0;
+  }
+
+  .foot-links {
+    text-decoration: none;
+    color: var(--gray-01, #cfcfcf);
+    font-family: Roboto;
+    font-size: 2.4vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8vh;
+    letter-spacing: -0.08px;
+  }
+
+  .redirects {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 4vw;
+    padding-bottom: 2vw
+  }
+
+  .foot-rights {
+    color: var(--gray-01, #cfcfcf);
+    font-family: Roboto;
+    font-size: 2.4vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.08px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foot-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh 1vw;
+  }
+
+  .form-foot {
+    display: flex;
+    align-items: center;
+  }
+
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-input {
+    padding: 1.2vw 3vw;
+    border-radius: 50px;
+    background: var(--dark-mode, #212330);
+    width: 30vw;
+    display: flex;
+    gap: 10px;
+    font-size: 0.8vw;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border: none;
+    transform: scale(1.2);
+  }
+
+  .send-email {
+    padding: 1.2vw 3vw;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 11vw;
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    right: -3vw;
+    transform: scale(0.8);
+  }
+
+  .send-email:hover {
+    background-color: #cfcfcf;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .foot-main {
+    background-image: url("../assets/mobile/foot-bg-mobile.svg");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5vw 3vw;
+    padding-top: 50vw;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .foot-logo {
+    height: 4vw;
+    flex-shrink: 0;
+    padding: 2vw 2.5vw;
+  }
+
+  .foot-links {
+    text-decoration: none;
+    color: var(--gray-01, #cfcfcf);
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8vh;
+    letter-spacing: -0.08px;
+    padding: 1vh 1vw;
+  }
+
+  .redirects {
+    padding-left: 1.6vw;
+  }
+
+  .foot-rights {
+    color: var(--gray-01, #cfcfcf);
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.08px;
+    padding: 0 2.5vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foot-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0vh 2vw;
+  }
+
+  .form-foot {
+    display: flex;
+    align-items: center;
+  }
+
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: end;
+  }
+
+  .footer-input {
+    padding: 1.2vw 3vw;
+    border-radius: 50px;
+    background: var(--dark-mode, #212330);
+    width: 30vw;
+    display: flex;
+    gap: 10px;
+    font-size: 2vw;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border: none;
+    transform: scale(1.2);
+  }
+
+  .send-email {
+    padding: 1.2vw 2vw;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 2vw;
+    transition: background-color 0.3s;
+    width: 11vw;
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    right: -1.9vw;
+    transform: scale(0.8);
+  }
+
+  .send-email:hover {
+    background-color: #cfcfcf; /* Darker color on hover */
+  }
+}

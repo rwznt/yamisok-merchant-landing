@@ -1,0 +1,192 @@
+@media screen and (max-width: 900px) {
+    .card-main {
+    width: 35vh;
+    height: 25vh;
+    opacity: 1;
+    background-color: rgb(0 0 0 / .3);
+    margin: 3vh 1vh;
+    border-radius: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;     
+}
+
+.corner-right {
+    right: 1.7vw;
+    width: 10vw;
+    height: 10vw;
+    fill: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -1vh;
+    top: -1vw;
+    background-color: #212429;
+    border-radius: 50%;
+}
+
+.inner-corner {
+    width: 9vw;
+    height: 9vw;
+    flex-shrink: 0;
+    fill: var(--Base-Color-BG-Icon, #000);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: rgb(0 0 0 / .5);
+    cursor: pointer;
+}
+
+.inner-corner:hover {
+    background-color: rgb(0 0 0 / 1);
+}
+
+.arrows {
+    width: 6vw;
+    height: 6vw;
+}
+
+.cards-content {
+    padding: 3vh;
+}
+
+.card-logo {
+    display: flex;
+    width: 8vw;
+    height: 8vw;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.image-logo {
+    width: 6vw;
+    height: 6vw;
+    flex-shrink: 0;
+    border-radius: 4vh;
+}
+
+.card-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.739%;
+    letter-spacing: -0.006vh;
+    margin: 0;
+    padding-top: 1vh;
+}
+
+.card-desc {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.9vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.462%;
+    letter-spacing: -0.008vh;
+}
+
+}
+
+@media screen and (min-width: 901px) {
+    .card-main {
+    width: 25vw;
+    height: 17vw;
+    opacity: 1;
+    background-color: rgb(0 0 0 / .5);
+    margin: 3vh 1vh;
+    border-radius: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.corner-right {
+    right: 1.7vw;
+    width: 5vw;
+    height: 5vw;
+    fill: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -1vh;
+    top: -1vw;
+    background-color: #212429;
+    border-radius: 50%;
+}
+
+.inner-corner {
+    width: 4vw;
+    height: 4vw;
+    flex-shrink: 0;
+    fill: var(--Base-Color-BG-Icon, #000);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: rgb(0 0 0 / .5);
+    cursor: pointer;
+}
+
+.inner-corner:hover {
+    background-color: rgb(0 0 0 / 1);
+}
+
+.arrows {
+    width: 2vw;
+    height: 2vw;
+}
+
+.cards-content {
+    padding: 3vh;
+}
+
+.card-logo {
+    display: flex;
+    width: 3.2vw;
+    height: 3.2vw;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.image-logo {
+    width: 4vw;
+    height: 4vw;
+    flex-shrink: 0;
+    border-radius: 4vh;
+}
+
+.card-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.739%;
+    letter-spacing: -0.006vh;
+    margin: 0;
+    padding-top: 1vh;
+}
+
+.card-desc {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.462%;
+    letter-spacing: -0.008vh;
+}
+
+}

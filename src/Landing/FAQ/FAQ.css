@@ -1,0 +1,135 @@
+@media screen and (max-width: 900px) {
+    .faq-main {
+    padding: 0 5vw;
+    background-image: url('../../assets/mobile/faq-bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: #212429; */
+    fill: var(--Icon-Gradation, linear-gradient(0deg, #FFDC4F 0%, #FFBD3D 25%, #FF7011 80%, #FF5300 100%));
+    /* opacity: 0.8; */
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    overflow: auto;
+    position: relative;
+    padding-top: 30vw;
+    /* padding-bottom: 15vw; */
+}
+
+.faq-text {
+    /* width: fit-content; */
+    padding: 2vw 6vw;
+    padding-top: 10vw;
+}
+
+.faq-short {
+    max-width: fit-content;
+    font-family: Roboto;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.5%;
+    letter-spacing: -0.043vw;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.faq-long {
+    color: var(--Base-Color-Neutral, #F8F9FA);
+    font-family: "Rubik One";
+    font-size: 5.5vw;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 4.1vw; */
+    margin: 0;
+    padding: 0;
+    /* max-width: 70%; */
+}
+
+.lists-faq {
+    width: 100%;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 3vw;
+    padding-bottom: 30vw;
+}
+
+.odd {
+    color: #FFFFFF;
+    background: #FF5300;
+}
+
+.even {
+    background: #FFFFFF;
+    color: black;
+}
+}
+@media screen and (min-width: 901px) {
+    .faq-main {
+    padding: 0 5vw;
+    background-image: url('../../assets/faq-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #212429; */
+    fill: var(--Icon-Gradation, linear-gradient(0deg, #FFDC4F 0%, #FFBD3D 25%, #FF7011 80%, #FF5300 100%));
+    /* opacity: 0.8; */
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    overflow: auto;
+}
+
+.faq-text {
+    /* width: fit-content; */
+    padding: 14vw 12vw;
+    padding-bottom: 4vw;
+}
+
+.faq-short {
+    max-width: fit-content;
+    font-family: Roboto;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.5%;
+    letter-spacing: -0.043vw;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.faq-long {
+    color: var(--Base-Color-Neutral, #F8F9FA);
+    font-family: "Rubik One";
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.1vw;
+    margin: 0;
+    padding: 0;
+    max-width: 70%;
+}
+
+.faq-list {
+    display: flex;
+    justify-content: center;
+    padding: 2vw 10vw;
+    padding-bottom: 14vw;
+}
+
+.odd {
+    color: #FFFFFF;
+    background: #FF5300;
+}
+
+.even {
+    background: #FFFFFF;
+    color: black;
+}
+
+}

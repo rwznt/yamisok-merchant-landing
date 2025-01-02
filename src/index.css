@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto", "Rubik One", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #212429;
+}
+
+:root {
+  font-family: "Roboto", "Rubik One", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,61 @@
+@media screen and (min-width: 901px) {
+  .faq-card-main {
+    height: 9vw;
+    flex-shrink: 0;
+    border-radius: 2vh;
+    padding: 0 3vw;
+    margin: 0 2rem;
+    width: 25vw;
+  }
+
+  .faq-card-question {
+    font-family: Roboto;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    padding-top: 2vw;
+  }
+
+  .faq-card-answer {
+    font-family: Roboto;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.462%;
+    letter-spacing: -0.08px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .faq-card-main {
+    width: 75vw;
+    height: 25vw;
+    flex-shrink: 0;
+    border-radius: 2vh;
+    padding: 0 3vw;
+    margin: 0 2vw;
+  }
+
+  .faq-card-question {
+    font-family: Roboto;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    padding-top: 3vw;
+    padding-bottom: 0.9vw;
+    margin-bottom: 0vw;
+  }
+
+  .faq-card-answer {
+    font-family: Roboto;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.462%;
+    letter-spacing: -0.08px;
+  }
+}

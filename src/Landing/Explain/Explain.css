@@ -1,0 +1,151 @@
+@media screen and (min-width: 901px) {
+    .explain-main {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0rem 10vh; */
+    padding-bottom: 10vh;
+    background-image: url('../../assets/explain-bg.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.explain-logo{
+    padding: 0 15vw;
+    transform: scale(3);
+    display: flex;
+    justify-content: center;
+}
+
+.explain-logo-image {
+    /* transform: scale(3); */
+    width: 10vw;
+    height: 4vw;
+    /* height: auto; */
+    padding-top: 5vw;
+}
+
+.explain-desc {
+    margin: 0;
+    padding: 0 6vw;
+}
+
+.explain-title {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik One";
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    line-height: 91.111%;
+    max-width: 70%;
+    letter-spacing: 0.038vh;
+    color: #FFFFFF;
+}
+
+.explain-text {
+    font-family: Roboto;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    /* width: 75%; */
+    color: #FFFFFF;
+}
+
+.yellow-text-explain {
+    font-family: "Rubik One";
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    color: #FFC801;
+}   
+}
+
+@media screen and (max-width: 900px) {
+    .explain-main {
+    display: block;
+    /* justify-content: space-between; */
+    /* padding: 0rem 10vh; */
+    padding-bottom: 10vh;
+    background-image: url('../../assets/explain-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 67vw;
+}
+
+.explain-logo{
+    padding: 12vw 15vw;
+    /* transform: scale(7); */
+    display: flex;
+    padding-top: 17vw;
+    justify-content: center;
+}
+
+.explain-logo-image {
+    transform: scale(9);
+    max-width: 10vw;
+    /* height: auto; */
+    /* padding-top: 3.7vh; */
+}
+
+.explain-desc {
+    margin: 0;
+    padding: 14vw 6vw;
+}
+
+.explain-title {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik One";
+    font-size: 7.5vw;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    line-height: 91.111%;
+    /* max-width: 70%; */
+    letter-spacing: 0.038vh;
+    color: #FFFFFF;
+}
+
+.explain-text {
+    font-family: Roboto;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    /* width: 75%; */
+    color: #FFFFFF;
+}
+
+.yellow-text-explain {
+    font-family: "Rubik One";
+    font-size: 7.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    color: #FFC801;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .explain-logo-image {
+        /* transform: scale(3); */
+        width: 10vw;
+        height: 4vw;
+        /* height: auto; */
+        padding-top: 4vw;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .explain-logo-image {
+        /* transform: scale(3); */
+        width: 10vw;
+        height: 4vw;
+        /* height: auto; */
+        padding-top: 3.7vw;
+    }
+}

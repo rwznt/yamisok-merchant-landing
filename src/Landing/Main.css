@@ -1,0 +1,66 @@
+.yellow-text {
+    color: #FFC801;
+}
+
+/* p {
+    color: #FFFFFF;
+} */
+/* 
+h3 {
+    color: #FFFFFF
+} */
+
+h1 {
+    color: #FFFFFF;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* .tops {
+    background-image: url('../assets/nav-bg.svg');
+    fill: linear-gradient(88deg, #CDAA2A -32.81%, #FFC800 22.95%, #FFCB10 77.57%), #000;
+    background-repeat: no-repeat;
+    background-size: fill;
+} */
+
+/* .topnav {
+    background-image: url('../assets/top-bg.svg');
+    background-repeat: no-repeat; 
+    background-position: calc(100%);  
+    background-color: #212429;
+} */
+
+/* .combofoot {
+    position: absolute;
+    background-image: url('../assets/footer-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+} */
+
+/* .Footer {
+    background-image: url('../assets/footer-bg.svg');
+    background-repeat: no-repeat; 
+    background-size: contain;
+    z-index: 1;
+    position: relative; 
+}
+
+.FAQ {
+    background-image: url('../assets/faq-bg.svg');
+    background-repeat: no-repeat; 
+    background-size: contain;
+    z-index: 2;
+    position: relative; 
+}
+
+.Benefits {
+    position: relative;
+    background-image: url('../assets/benefits-bg-main.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+} */

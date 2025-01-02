@@ -1,0 +1,364 @@
+/* .merch-container {
+    background-color: #212429;
+} */
+
+@media screen and (min-width: 901px) {
+    /* .merch-container {
+    background-color: #212429;
+} */
+
+.merch-main {
+    padding: 0 5vw;
+    padding-bottom: 30vh;
+    background-position-y: 10vh;
+    background-image: url('../../assets/merch-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.merch-submain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.merch-title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #FFF;
+    font-family: "Rubik One";
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.1vh;
+}
+
+.merch-desc {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vw;
+    padding: 0 20vw;
+}
+
+.merch-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 4vw;
+}
+
+.enlist {
+    display: flex;
+    width: 75vw;
+    padding: 0 6vw;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    background: var(--Base-Color-BG-Icon, #000);
+
+}
+
+.context {
+    max-width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.6vh;
+    flex-shrink: 0;
+}
+
+.enlist-title {
+    color: var(--Base-Color-Neutral, #F8F9FA);
+    font-family: Roboto;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124.242%;
+}
+
+.enlist-desc {
+    color: var(--Base-Color-Neutral, #F8F9FA);
+    font-family: Roboto;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%; /*  */
+    margin: 0px;
+    max-width: 100%
+}   
+
+.forms {
+    height: 38vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets/forms-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    padding-left: 2.5vw;
+}
+
+.forms-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4vh;
+}
+
+.forms-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4vh;
+}
+
+.forms-content {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.6vh;
+    flex-shrink: 0;
+}
+
+.labels {
+    color: var(--Base-Color-Secondary-Text, #858585);
+    font-family: Roboto;
+    font-size: 1.6vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%; /*  */
+    letter-spacing: -0.043vh;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.stars {
+    color: #FF7011;
+    background-clip: text;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.43px;
+}
+
+.checks-input {
+    display: flex;
+    width: 35vw;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.enlist-button {
+    border-radius: 8px;
+    background: var(--Base-Color-Primary, #FFC801);
+    color: black;
+    width: 100%;
+    height: 42px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .merch-main {
+    padding: 0 5vw;
+    padding-bottom: 5vw;
+    background-position-y: 10vh;
+    background-image: url('../../assets/mobile/merch-bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.merch-submain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.merch-title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #FFF;
+    font-family: "Rubik One";
+    font-size: 5.5vw;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 4.1vh; */
+}
+
+.merch-desc {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vw;
+    padding: 0 5vw;
+}
+
+.merch-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 4vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlist {
+    display: flex;
+    flex-direction: column;
+    /* width: 75vw;
+    padding: 0 9vw; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    background: var(--Base-Color-BG-Icon, #000);
+
+}
+
+.context {
+    /* max-width: 40%; */
+    flex-direction: column;
+    padding: 2vw 4vw;
+    align-items: flex-start;
+    gap: 2vh;
+    flex-shrink: 0;
+}
+
+.enlist-title {
+    color: var(--Base-Color-Neutral, #F8F9FA);
+    font-family: Rubik One;
+    font-size: 6.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.242%;
+}
+
+.enlist-desc {
+    color: var(--Base-Color-Neutral, #F8F9FA);
+    font-family: Roboto;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%; /*  */
+    margin: 0px;
+    max-width: 100%
+}   
+
+.forms {
+    height: 38vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-image: url('../../assets/forms-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    padding-left: 2.5vw; */
+}
+
+.forms-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+}
+
+.forms-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5vh;
+}
+
+.forms-content {
+    display: flex;
+    max-width: 100;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.6vh;
+    flex-shrink: 0;
+}
+
+.labels {
+    color: var(--Base-Color-Secondary-Text, #858585);
+    font-family: Roboto;
+    font-size: 1.6vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%; /*  */
+    letter-spacing: -0.043vh;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.stars {
+    color: #FF7011;
+    background-clip: text;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.43px;
+}
+
+.checks-input {
+    display: flex;
+    width: 65vw;
+    height: 0.3vh;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.enlist-button {
+    border-radius: 8px;
+    background: var(--Base-Color-Primary, #FFC801);
+    color: black;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+}

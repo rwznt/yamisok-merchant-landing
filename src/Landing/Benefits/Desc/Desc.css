@@ -1,0 +1,69 @@
+@media screen and (min-width: 901px) {
+    .desc-main {
+    padding: 4vw;
+}
+
+.desc-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.739%;
+    letter-spacing: -0.006vh;
+    margin: 1vw 0;
+}
+
+hr {
+    width: 24vw;
+    height: 0.1vh;
+    background: #FFF;
+    margin: 0;
+}
+
+.desc-content {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    max-width: 90%;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .desc-main {
+    padding: 4vw;
+}
+
+.desc-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.739%;
+    letter-spacing: -0.006vh;
+    margin: 1vw 0;
+}
+
+hr {
+    width: 70vw;
+    height: 0.2vh;
+    background: #FFF;
+    margin: 0;
+}
+
+.desc-content {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    letter-spacing: -0.043vh;
+    /* max-width: 90%; */
+}
+}
